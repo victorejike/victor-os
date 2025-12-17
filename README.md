@@ -1,2 +1,26 @@
-# victor-os
- Victor OS - a complete operating system with C and C++. This is an extensive project
+victor-os/
+├── boot/
+│   ├── boot.asm
+│   └── multiboot.asm
+├── kernel/
+│   ├── arch/
+│   │   ├── x86/
+│   │   └── arm/
+│   ├── drivers/
+│   ├── mm/
+│   ├── proc/
+│   └── fs/
+├── libs/
+│   ├── libc/
+│   ├── libgui/
+│   └── libdotnet/
+├── apps/
+│   ├── shell/
+│   └── system-tools/
+└── gui/
+    ├── csharp-runtime/
+    ├── ui-framework/
+    └── system-ui/
+
+
+# victor os 
